@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TaxAssist</string>
+	
+	<string-array name="tax_menu_items">
+	    <item>Calculate Your HRA Exemption u/s 10A</item>
+        <item>Calculate Your Payable Tax</item>
+        <item>Calculate PF</item>
+		<item>Know Deductions under sections</item>
+    </string-array>
+	
+	<string-array name="cities">
+	    <item>Metropolitan</item>
+        <item>Others</item>
+    </string-array>
+</resources>

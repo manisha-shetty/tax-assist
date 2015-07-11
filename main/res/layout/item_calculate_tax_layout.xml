@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+		<TextView android:id="@+id/txt_income"
+            android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:padding="10dip"
+            android:textColor="#ffffff"
+			android:text="Enter Income from all sources"/>
+		<EditText
+			android:id="@+id/edit_txt_income"
+			android:minWidth="60px"
+			android:layout_width="wrap_content"
+			android:layout_height="40px"
+			android:textSize="12dip"
+			android:text="0"/>
+	</LinearLayout>
+
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+		<TextView android:id="@+id/txt_HRA_exemption"
+            android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:padding="10dip"
+            android:textColor="#ffffff"
+			android:text="Enter your HRA Exemption u/s 10A"/>
+		<EditText
+			android:id="@+id/edit_txt_HRA_exemption"
+			android:minWidth="60px"
+			android:layout_width="wrap_content"
+			android:layout_height="40px"		
+			android:textSize="12dip"
+			android:text="0"/>
+
+	</LinearLayout>
+	
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">  
+		<TextView android:id="@+id/txt_other_exemptions"
+            android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:padding="10dip"
+            android:textColor="#ffffff"
+			android:text="Enter other exemptions u/s 10A"/>
+		<EditText
+			android:id="@+id/edit_txt_other_exemptions"
+			android:minWidth="60px"
+			android:layout_width="wrap_content"
+			android:layout_height="40px"		
+			android:textSize="12dip"
+			android:text="0"/>  
+	</LinearLayout>	
+	
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+		<TextView android:id="@+id/txt_prof_tax"
+            android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:padding="10dip"
+            android:textColor="#ffffff"
+			android:text="Enter Professional Tax paid"/>
+		<EditText
+			android:id="@+id/edit_txt_prof_tax"
+			android:minWidth="60px"
+			android:layout_width="wrap_content"
+			android:layout_height="40px"			
+			android:textSize="12dip"
+			android:text="0"/>
+	</LinearLayout>	
+
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+		<TextView android:id="@+id/txt_total_exemptions"
+            android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:textStyle="bold"
+            android:padding="10dip"
+            android:textColor="#ffffff"
+			android:text="Total Exemptions"/>
+		<TextView
+			android:id="@+id/txt_total_exemptions_val"
+			android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:textStyle="bold"
+            android:padding="10dip"
+            android:textColor="#ffffff"/>
+	</LinearLayout>	
+	
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+		<TextView android:id="@+id/txt_deduction_80c"
+            android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:padding="10dip"
+            android:textColor="#ffffff"
+			android:text="Deductions u/s 80C"/>
+		<EditText
+			android:id="@+id/edit_txt_deduction_80c"
+			android:minWidth="60px"
+			android:layout_width="wrap_content"
+			android:layout_height="40px"		
+			android:textSize="12dip"
+			android:text="0"/>
+	</LinearLayout>
+	
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+		<TextView android:id="@+id/txt_deduction_80ccg"
+            android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:padding="10dip"
+            android:textColor="#ffffff"
+			android:text="Deductions u/s 80CCG"/>
+		<EditText
+			android:id="@+id/edit_txt_deduction_80ccg"
+			android:minWidth="60px"
+			android:layout_width="wrap_content"
+			android:layout_height="40px"		
+			android:textSize="12dip"
+			android:text="0"/>
+	</LinearLayout>
+	
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+		<TextView android:id="@+id/txt_deduction_80d"
+            android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:padding="10dip"
+            android:textColor="#ffffff"
+			android:text="Deductions u/s 80D"/>
+		<EditText
+			android:id="@+id/edit_txt_deduction_80d"
+			android:minWidth="60px"
+			android:layout_width="wrap_content"
+			android:layout_height="40px"		
+			android:textSize="12dip"
+			android:text="0"/>
+	</LinearLayout>
+	
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+		<TextView android:id="@+id/txt_deduction_80g"
+            android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:padding="10dip"
+            android:textColor="#ffffff"
+			android:text="Deductions u/s 80G"/>
+		<EditText
+			android:id="@+id/edit_txt_deduction_80g"
+			android:minWidth="60px"
+			android:layout_width="wrap_content"
+			android:layout_height="40px"		
+			android:textSize="12dip"
+			android:text="0"/>
+	</LinearLayout>
+	
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+		<TextView android:id="@+id/txt_deduction_80e"
+            android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:padding="10dip"
+            android:textColor="#ffffff"
+			android:text="Deductions u/s 80E"/>
+		<EditText
+			android:id="@+id/edit_txt_deduction_80e"
+			android:minWidth="60px"
+			android:layout_width="wrap_content"
+			android:layout_height="40px"		
+			android:textSize="12dip"
+			android:text="0"/>
+	</LinearLayout>
+	
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+		<TextView android:id="@+id/txt_deduction_80tta"
+            android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:padding="10dip"
+            android:textColor="#ffffff"
+			android:text="Deductions u/s 80TTA"/>
+		<EditText
+			android:id="@+id/edit_txt_deduction_80tta"
+			android:minWidth="60px"
+			android:layout_width="wrap_content"
+			android:layout_height="40px"	
+			android:textSize="12dip"
+			android:text="0"/>
+	</LinearLayout>
+	
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+		<TextView android:id="@+id/txt_benefit_24"
+            android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:padding="10dip"
+            android:textColor="#ffffff"
+			android:text="Benefit u/s 24"/>
+		<EditText
+			android:id="@+id/edit_txt_benefit_24"
+			android:minWidth="60px"
+			android:layout_width="wrap_content"
+			android:layout_height="40px"		
+			android:textSize="12dip"
+			android:text="0"/>
+	</LinearLayout>
+	
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+		<TextView android:id="@+id/txt_total_deductions_benefits"
+            android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:textStyle="bold"
+            android:padding="10dip"
+            android:textColor="#ffffff"
+			android:text="Total Deductions/benefits"/>
+		<TextView
+			android:id="@+id/txt_total_deductions_benefits_val"
+			android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:textStyle="bold"
+            android:padding="10dip"
+            android:textColor="#ffffff"/>
+	</LinearLayout>
+	
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+		<TextView android:id="@+id/txt_total_taxable_income"
+            android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:textStyle="bold"
+            android:padding="10dip"
+            android:textColor="#ffffff"
+			android:text="Total Taxable Income"/>
+		<TextView
+			android:id="@+id/txt_total_taxable_income_val"
+			android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:textStyle="bold"
+            android:padding="10dip"
+            android:textColor="#ffffff"
+			android:text="0"/>
+	</LinearLayout>
+	<Button
+	  android:id="@+id/btn_cal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:text="Calculate Tax payable" 
+	  android:onClick="calculateTaxPayable"
+      android:textSize="12dip"
+	/>
+  
+	<TableLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+		<TableRow>
+			<TextView android:id="@+id/txt_tax_slab"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="12dip"
+				android:textStyle="bold"
+				android:padding="10dip"
+				android:textColor="#ffffff"
+				android:text="Tax Slab"/>
+			<TextView
+				android:id="@+id/txt_tax_rate"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="12dip"
+				android:textStyle="bold"
+				android:padding="10dip"
+				android:textColor="#ffffff"
+				android:text="Tax Rate"/>
+			<TextView
+				android:id="@+id/txt_taxable_income"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="12dip"
+				android:textStyle="bold"
+				android:padding="10dip"
+				android:textColor="#ffffff"
+				android:text="Taxable Income"/>
+			<TextView
+				android:id="@+id/txt_payable_tax"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="12dip"
+				android:textStyle="bold"
+				android:padding="10dip"
+				android:textColor="#ffffff"
+				android:text="Payable Tax"/>		
+		</TableRow>
+		<TableRow>
+			<TextView android:id="@+id/txt_tax_slab_1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="12dip"
+				android:textStyle="bold"
+				android:padding="10dip"
+				android:textColor="#ffffff"
+				android:text="Upto 2,50,000"/>
+			<TextView
+				android:id="@+id/txt_tax_rate_1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="12dip"
+				android:textStyle="bold"
+				android:padding="10dip"
+				android:textColor="#ffffff"
+				android:text="0%"/>
+			<TextView
+				android:id="@+id/txt_taxable_income_1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="12dip"
+				android:textStyle="bold"
+				android:padding="10dip"
+				android:textColor="#ffffff"
+				android:text="0"/>
+			<TextView
+				android:id="@+id/txt_payable_tax_1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="12dip"
+				android:textStyle="bold"
+				android:padding="10dip"
+				android:textColor="#ffffff"
+				android:text="0"/>		
+		</TableRow>
+		<TableRow>
+			<TextView android:id="@+id/txt_tax_slab_2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="12dip"
+				android:textStyle="bold"
+				android:padding="10dip"
+				android:textColor="#ffffff"
+				android:text="2,50,001 to 5,00,000"/>
+			<TextView
+				android:id="@+id/txt_tax_rate_2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="12dip"
+				android:textStyle="bold"
+				android:padding="10dip"
+				android:textColor="#ffffff"
+				android:text="10%"/>
+			<TextView
+				android:id="@+id/txt_taxable_income_2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="12dip"
+				android:textStyle="bold"
+				android:padding="10dip"
+				android:textColor="#ffffff"
+				android:text="0"/>
+			<TextView
+				android:id="@+id/txt_payable_tax_2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="12dip"
+				android:textStyle="bold"
+				android:padding="10dip"
+				android:textColor="#ffffff"
+				android:text="0"/>		
+		</TableRow>
+		<TableRow>
+			<TextView android:id="@+id/txt_tax_slab_3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="12dip"
+				android:textStyle="bold"
+				android:padding="10dip"
+				android:textColor="#ffffff"
+				android:text="5,00,001 to 10,00,000"/>
+			<TextView
+				android:id="@+id/txt_tax_rate_3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="12dip"
+				android:textStyle="bold"
+				android:padding="10dip"
+				android:textColor="#ffffff"
+				android:text="20%"/>
+			<TextView
+				android:id="@+id/txt_taxable_income_3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="12dip"
+				android:textStyle="bold"
+				android:padding="10dip"
+				android:textColor="#ffffff"
+				android:text="0"/>
+			<TextView
+				android:id="@+id/txt_payable_tax_3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="12dip"
+				android:textStyle="bold"
+				android:padding="10dip"
+				android:textColor="#ffffff"
+				android:text="0"/>		
+		</TableRow>
+		<TableRow>
+			<TextView android:id="@+id/txt_tax_slab_4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="12dip"
+				android:textStyle="bold"
+				android:padding="10dip"
+				android:textColor="#ffffff"
+				android:text="10,00,001 and above"/>
+			<TextView
+				android:id="@+id/txt_tax_rate_4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="12dip"
+				android:textStyle="bold"
+				android:padding="10dip"
+				android:textColor="#ffffff"
+				android:text="30%"/>
+			<TextView
+				android:id="@+id/txt_taxable_income_4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="12dip"
+				android:textStyle="bold"
+				android:padding="10dip"
+				android:textColor="#ffffff"
+				android:text="0"/>
+			<TextView
+				android:id="@+id/txt_payable_tax_4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="12dip"
+				android:textStyle="bold"
+				android:padding="10dip"
+				android:textColor="#ffffff"
+				android:text="0"/>		
+		</TableRow>
+		<TableRow>
+			<TextView android:id="@+id/txt_total_payable_tax"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="12dip"
+				android:textStyle="bold"
+				android:padding="10dip"
+				android:textColor="#ffffff"
+				android:text="Total Tax payable"/>
+			<TextView/>
+			<TextView/>
+			<TextView
+				android:id="@+id/txt_total_payable_tax_val"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="12dip"
+				android:textStyle="bold"
+				android:padding="10dip"
+				android:textColor="#ffffff"
+				android:text="0"/>		
+		</TableRow>
+	</TableLayout>  
+</LinearLayout>
+</ScrollView>

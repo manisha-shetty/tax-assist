@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+		<TextView android:id="@+id/txt_basic_salary"
+            android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:padding="10dip"
+            android:textColor="#ffffff"
+			android:text="Enter your Basic Salary"/>
+		<EditText
+			android:id="@+id/edit_txt_basic_sal"
+			android:minWidth="60px"
+			android:layout_width="wrap_content"
+			android:layout_height="40px"
+			android:textSize="12dip"/>
+	</LinearLayout>
+
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+		<TextView android:id="@+id/txt_HRA"
+            android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:padding="10dip"
+            android:textColor="#ffffff"
+			android:text="Enter your HRA Allowance"/>
+		<EditText
+			android:id="@+id/edit_txt_HRA"
+			android:minWidth="60px"
+			android:layout_width="wrap_content"
+			android:layout_height="40px"
+			android:textSize="12dip"/>
+	</LinearLayout>
+
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+		<TextView android:id="@+id/txt_rent"
+            android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:padding="10dip"
+            android:textColor="#ffffff"
+			android:text="Enter actual Rent paid"/>
+		<EditText
+			android:id="@+id/edit_txt_rent"
+			android:minWidth="60px"
+			android:layout_width="wrap_content"
+			android:layout_height="40px"
+			android:textSize="12dip"/>
+	</LinearLayout>	
+	
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+		<TextView android:id="@+id/txt_city"
+            android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:padding="10dip"
+            android:textColor="#ffffff"
+			android:text="You stay in a city that is"/>
+		<Spinner
+			android:id="@+id/select_city"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:entries="@array/cities"/>
+	</LinearLayout>
+	
+	<Button
+	  android:id="@+id/btn_cal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:text="Calculate HRA Exemption" 
+	  android:onClick="calculateHRAExemption"
+      android:textSize="10dip"/>
+  
+	<TextView android:id="@+id/txt_exemption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:padding="10dip"
+            android:textColor="#ffffff"/>
+</LinearLayout>
