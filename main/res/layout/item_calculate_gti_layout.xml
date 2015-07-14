@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+	
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+		<TextView android:id="@+id/lbl_income"
+            android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:padding="10dip"
+            android:textColor="#ffffff"
+			android:text="Enter Income from all sources"/>
+		<EditText
+			android:id="@+id/val_income"
+			android:minWidth="80px"
+			android:layout_width="wrap_content"
+			android:layout_height="40px"
+			android:textSize="12dip"
+			android:text="0"/>
+	</LinearLayout>
+
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+		<TextView android:id="@+id/lbl_conveyance_allowance"
+            android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:padding="10dip"
+            android:textColor="#ffffff"
+			android:text="Conveyance Allowance by your employer"/>
+		<TextView android:id="@+id/val_conveyance_allowance"
+            android:layout_width="600px"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:padding="10dip"
+            android:textColor="#ffffff"
+			android:text="0"/>
+	</LinearLayout>
+	
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+		<TextView android:id="@+id/lbl_lta"
+            android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:padding="10dip"
+            android:textColor="#ffffff"
+			android:text="Your Leave Travel Allowance"/>
+		<TextView android:id="@+id/val_lta"
+            android:layout_width="600px"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:padding="10dip"
+            android:textColor="#ffffff"
+			android:text="0"/>
+	</LinearLayout>
+	
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+		<TextView android:id="@+id/lbl_HRA_exemption"
+            android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:padding="10dip"
+            android:textColor="#ffffff"
+			android:text="Your HRA Exemption u/s 10A"/>
+		<TextView android:id="@+id/val_calc_HRA_exemption"
+            android:layout_width="600px"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:padding="10dip"
+            android:textColor="#ffffff"
+			android:text="0"/>
+	</LinearLayout>
+	
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">  
+		<TextView android:id="@+id/lbl_other_exemptions"
+            android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:padding="10dip"
+            android:textColor="#ffffff"
+			android:text="Enter other exemptions u/s 10A"/>
+		<EditText
+			android:id="@+id/val_other_exemptions"
+			android:minWidth="80px"
+			android:layout_width="wrap_content"
+			android:layout_height="40px"		
+			android:textSize="12dip"
+			android:text="0"/>  
+	</LinearLayout>	
+	
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+		<TextView android:id="@+id/lbl_prof_tax"
+            android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:padding="10dip"
+            android:textColor="#ffffff"
+			android:text="Enter Professional Tax paid"/>
+		<EditText
+			android:id="@+id/val_prof_tax"
+			android:minWidth="80px"
+			android:layout_width="wrap_content"
+			android:layout_height="40px"			
+			android:textSize="12dip"
+			android:text="0"/>
+	</LinearLayout>	
+
+	<Button
+	  android:id="@+id/btn_cal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:text="Calculate Gross Total Income" 
+	  android:onClick="calculateGTI"
+      android:textSize="10dip"/>
+	  
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+			<TextView android:id="@+id/lbl_gross_income"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"
+            android:padding="10dip"
+            android:textColor="#ffffff"/>
+	</LinearLayout>	
+ 
+</LinearLayout>
+</ScrollView>

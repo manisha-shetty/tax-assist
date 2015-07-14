@@ -18,7 +18,7 @@ public class TaxAssist extends ListActivity
     {
         super.onCreate(savedInstanceState);
 		//storing into array
-		String[] taxMenuItems = getResources().getStringArray(R.array.tax_menu_items);
+		/*String[] taxMenuItems = getResources().getStringArray(R.array.tax_menu_items_array);
 		this.setListAdapter(new ArrayAdapter<String>(this, R.layout.list_item_layout, R.id.label, taxMenuItems));
 		
 		ListView lv=getListView();
@@ -37,9 +37,12 @@ public class TaxAssist extends ListActivity
 
               startActivity(i);
              
-          }
-			
-		});
+			  }
+
+		});*/
+		Intent i = new Intent(getApplicationContext(), PageController.class);
+		  i.putExtra("position", 1);
+		  startActivity(i);
 		
     }
 }

@@ -2,15 +2,73 @@
 <resources>
     <string name="app_name">TaxAssist</string>
 	
-	<string-array name="tax_menu_items">
-	    <item>Calculate Your HRA Exemption u/s 10A</item>
+	<string-array name="tax_menu_items_array">
+		<item>Provide Your Income Details</item>
+		<item>Calculate Allowances and Exemptions</item>
+		<item>Calculate Your GTI - Gross Total Income</item>
+		<item>Calculate Deduction u/s 80GG - House rent</item>
+		<item>Calculate Deduction u/s 80G - Donations</item>
         <item>Calculate Your Payable Tax</item>
-        <item>Calculate PF</item>
-		<item>Know Deductions under sections</item>
+       <!-- <item>Calculate PF</item>
+		<item>Know Deductions under sections</item>-->
     </string-array>
 	
-	<string-array name="cities">
+	<string-array name="cities_array">
 	    <item>Metropolitan</item>
         <item>Others</item>
+    </string-array>
+	
+	<string-array name="donation_categories_array">
+	    <item>Category 1</item>
+        <item>Category 2</item>
+        <item>Category 3</item>
+        <item>Category 4</item>
+    </string-array>
+
+	<string-array name="donations_100prcnt_no_limit_array">
+		<item>National Defence Fund set up by the Central Government</item>
+		<item>Prime Minister\'s National Relief Fund</item>
+		<item>National Foundation for Communal Harmony</item>
+		<item>An approved university/educational institution of National eminence</item>
+		<item>Zila Saksharta Samiti constituted in any district under the chairmanship of the Collector of that district</item>
+		<item>Fund set up by a State Government for the medical relief to the poor</item>
+		<item>National Illness Assistance Fund</item>
+		<item>National Blood Transfusion Council or to any State Blood Transfusion Council</item>
+		<item>National Trust for Welfare of Persons with Autism, Cerebral Palsy, Mental Retardation and Multiple Disabilities</item>
+		<item>National Sports Fund</item>
+		<item>National Cultural Fund</item>
+		<item>Fund for Technology Development and Application</item>
+		<item>National Children\'s Fund</item>
+		<item>Chief Minister\'s Relief Fund or Lieutenant Governor\'s Relief Fund with respect to any State or Union Territory</item>
+		<item>the Army Central Welfare Fund or the Indian Naval Benevolent Fund or the Air Force Central Welfare Fund, Andhra Pradesh Chief Minister\'s Cyclone Relief Fund, 1996</item>
+		<item>The Maharashtra Chief Minister\'s Relief Fund during October 1, 1993 and October 6,1993</item>
+		<item>Chief Minister\'s Earthquake Relief Fund, Maharashtra</item>
+		<item>Any fund set up by the State Government of Gujarat exclusively for providing relief to the victims of earthquake in Gujarat</item>
+		<item>Any trust, institution or fund to which Section 80G(5C) applies for providing relief to the victims of earthquake in Gujarat (contribution made during January 26, 2001 and September 30, 2001)</item>
+		<item>Prime Minister\'s Armenia Earthquake Relief Fund</item>
+		<item>Africa (Public Contributions — India) Fund</item>
+		<item>Swachh Bharat Kosh (applicable from financial year 2014-15)</item>
+		<item>Clean Ganga Fund (applicable from financial year 2014-15)</item>
+		<!--<item>National Fund for Control of Drug Abuse (applicable from financial year 2015-16)</item>-->
+	    
+    </string-array>
+	
+	<string-array name="donations_50prcnt_no_limit_array">
+	    <item>Jawaharlal Nehru Memorial Fund</item>
+		<item>Prime Minister\'s Drought Relief Fund</item>
+		<item>Indira Gandhi Memorial Trust</item>
+		<item>The Rajiv Gandhi Foundation</item>
+    </string-array>
+	
+	<string-array name="donations_100prcnt_limited_array">
+	    <item>Government or any approved local authority, institution or association to be utilised for the purpose of promoting family planning</item>
+    </string-array>
+	
+	<string-array name="donations_50prcnt_limited_array">
+	    <item>Any other fund or any institution which satisfies conditions mentioned in Section 80G(5)</item>
+		<item>Government or any local authority to be utilised for any charitable purpose other than the purpose of promoting family planning</item>
+		<item>Any authority constituted in India for the purpose of dealing with and satisfying the need for housing accommodation or for the purpose of planning, development or improvement of cities, towns, villages or both</item>
+		<item>Any corporation referred in Section 10(26BB) for promoting interest of minority community</item>
+		<item>For repairs or renovation of any notified temple, mosque, gurudwara, church or other place.</item>
     </string-array>
 </resources>
